@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GMC AI | the personal councillor</title>
+
+ 
+    <link rel="stylesheet" href="./css/style.css" />
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+  
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <header class="container header">
+
+      <nav class="nav">
+        <div class="logo">
+          <h2>GMC. AI </h2>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="ri-close-fill"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">account</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">about</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">service</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+    </header>
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+          <div class="grid-item-1">
+            <h1 class="main-heading">
+              Welcome to <span>GMC</span>
+              <br />
+              Your realtime AI councillor 
+            </h1>
+            <p class="info-text">
+              Talk to us , tell your problem to us we are here to help you, 100% secured AI  counselling service
+            </p>
+
+            <div class="btn_wrapper">
+              <button class="btn view_more_btn" id="redirectBtn">
+                Start Chat <i class="ri-arrow-right-line"></i>
+              </button>
+            
+              <button class="btn documentation_btn">documentation</button>
+            </div>
+          </div>
+          
+          <div class="grid-item-2">
+            <div class="team_img_wrapper">
+              <img src="./img/image1.png" alt="team-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="grid-cols-3">
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span class="title">Technologies</span>
+              <p>
+                In this platform , the AI engine is powerd by google gemini , and the front end is developed by HTML, CSS, JS
+                first it ask collect users input from the UI and then it send to the AI engine and get the response and display it to the user
+                This also have custom memory text which Developer can feed data to the 
+                AI engine and train the AI model better,
+              </p>
+            </div>
+          </div>
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span class="title">Why I created this</span>
+              <p>
+ Everyone Thinks creating AI projects Is so hard LOL , It isn't true I created this project for DS college ICT compition ..
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span class="title">Future Improvemnts</span>
+              <p>
+               Currently This system just use JS to send data to the AI engine , I'm planning to use Node.js to send data to the AI engine and get the response, and we can also use PHP as backend and store API key and bot training data in the backend.
+               and also can add login user account creation method to store user data and provide better service to the user.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      Developed and designed by <a href="https://dinethdilshan.com/"> Dilshan Gunawardana From Mahanama College</a>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+ 
+    <script src="./script.js" defer></script>
+  </body>
+</html>
