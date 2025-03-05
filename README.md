@@ -56,7 +56,7 @@ GMC AI is a real-time AI-powered counselor chatbot designed to provide empatheti
 ## Setup Guide
 ### 1. **Clone the Repository**
 ```sh
- git clone https://github.com/your-repo/GMC-AI.git
+ git clone https://github.com/thisisdineth/GMC-AI---Personal-Counselor-Chatbot-with-AI
 ```
 ### 2. **Replace API Key**
 - Open `script.js` and replace `API_KEY` with your Google Gemini AI API key.
