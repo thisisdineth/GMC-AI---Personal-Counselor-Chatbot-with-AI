@@ -1,8 +1,7 @@
 # GMC AI - Personal Counselor Chatbot
 
 GMC AI is a real-time AI-powered counselor chatbot designed to provide empathetic and supportive conversations. It is built using Google Gemini AI and a frontend developed with HTML, CSS, and JavaScript.
-
-Try The Demo - **DEMO:** [Try It now](https://gmc-ai-personal-counselor-chatbot-with-ai.vercel.app/chat.html)
+ **Demostration:** [Try It now](https://gmc-ai-personal-counselor-chatbot-with-ai.vercel.app/chat.html)
 ## Features
 - AI-powered chatbot using Google Gemini AI
 - Real-time chat functionality
